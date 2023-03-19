@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: testRunnerBlaze.TestRunnerBlaze
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 41.402 s - in testRunnerBlaze.TestRunnerBlaze

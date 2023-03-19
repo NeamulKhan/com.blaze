@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify order confirmation after order placed with valid card",
+        "description": "",
+        "id": "this-feature-is-for-order-confirmation-functionality;verify-order-confirmation-after-order-placed-with-valid-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1801748992,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "BlazeLogin.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1065401653,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click Nexus6 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 11
+                }
+              ],
+              "location": "BlazeOrderConf.click_Nexus_link(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8679617574,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click add to cart button and click cart link",
+            "match": {
+              "location": "BlazeOrderConf.click_add_to_cart_button_and_click_cart_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3094186706,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click place order button",
+            "match": {
+              "location": "BlazeOrderConf.click_place_order_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6013083368,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter name and country and city and credit card and month and year and click purchase button",
+            "match": {
+              "location": "BlazeOrderConf.enter_name_and_country_and_city_and_credit_card_and_month_and_year_and_click_purchase_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13379666056,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify order confirmation received and click ok button",
+            "match": {
+              "location": "BlazeOrderConf.verify_order_confirmation_received_and_click_ok_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@OrderConf"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for order confirmation functionality",
+    "description": "",
+    "id": "this-feature-is-for-order-confirmation-functionality",
+    "keyword": "Feature",
+    "uri": "BlazeOrderConf.feature"
+  }
+]
